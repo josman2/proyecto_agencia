@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <center>
+        <a href="../inicio.html">inicio</a>
+        <H1>Contactanos</H1>
+        <p> para tener el gusto de atenderlo </p>
+        <img src="../imagenes/contactanos.jpg" width="25%" alt=""><br>
+        <form>
+           <label>ESCRIBE TU NOMBRE</label><br>
+           <input required name="nombre" type="text" placeholder="nombre y apellido"><br>
+           <br>
+           <label> ESCRIBE TU EDAD </label><br>
+           <input name="edad" type="number" min="18" max="55"><br>
+           <br>
+           <label> ESCRIBE TU TELEFONO</label><br>
+           <input name="tel" type="tel" placeholder="fijo/celular"><br>
+           <br>
+           <label>FECHA DE NACIMIENTO</label><br>
+           <input type="date" min="2004-12-31" max="2023-12-31"><br>
+           <br>
+           <labe> SELECCIONE GENERO </label><br>
+           <input value="hombre" name="genero" type="radio"> hombre
+           <input value="mujer" name="genero" type="radio"> mujer
+           <input value="binario" name="genero" type="radio"> binario
+           <input value="indefinido"name="genero" type="radio"> indefinido <br>
+           <br>         
+           <label> SELECCIONE TRANSPORTE </label><br>
+           <input name="transporte" type="radio"> terrestre
+           <input name="transporte" type="radio"> aereo
+           <input name="transporte" type="radio"> maritimo <br>
+           <br>
+           <label> ESCRIBE TU CORREO </label><br>
+           <input type="email"><br>
+           <br>
+           <label> ESCRIBE TU CONTRASEÑA </label><br>
+           <input type="password"><br>
+           <br>
+           <label> ESCOJE COLOR </label><br>
+           <input type="color"><br>
+           <br>
+           <label> ESCOJE UNA FOTO </label><br>
+           <input type="file" accept=".jpg, .png, .gif"><br>
+           <br>
+           <label"> COMO QUIERES QUE TE CONTACTEN </label><br>
+           <select name="contacto">
+               <option value="whatsapp"> whatsapp </option>
+               <option value="correo"> correo </option>
+               <option value="telefono"> telefono </option>
+               <option value="mensaje"> mensaje </option>
+           </select><br>
+           <br>
+           <label> ESCRIBE TU MENSAJE </label><br>
+           <textarea name="mensaje" id="" cols="30" rows="10"></textarea><br><br>
+           <button type=" reset"> BORRAR DATOS</button>
+           <button type="button"> NO </button>
+           <button type="submit"> ENVIAR DATOS </button>
+           
+       </form>
+    </center>
+</body>
+</html>
